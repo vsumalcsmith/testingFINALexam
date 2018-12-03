@@ -1,0 +1,78 @@
+import java.util.Scanner;
+import java.io.*;
+//import java.util.Date;
+import java.util.Arrays;
+//import java.util.
+
+public class deliveryOrder{
+  private static String address;
+  private static long phoneNumber;
+  private static double cost;
+  private static long phone;
+  private double [] show;
+  
+  
+    
+  public static void main(String [] args){
+    readData(); 
+    calculations();
+  
+  } 
+  
+  public static void readData(){
+    Scanner input = new Scanner(System.in);
+    
+    
+    System.out.println("What's your address?");
+    address = input.nextLine();
+    
+    
+    System.out.println("What's your phone number?");
+    phoneNumber = input.nextLong();
+    
+    System.out.println("How much did it cost?");
+    cost = input.nextDouble();
+    
+    double [] show = {10, 5, 2, 6};
+ 
+  
+  }
+  
+  
+  public static void calculations(){
+  
+  int num = 87;
+  int max = 25;
+  if(num <= max * 2){
+    System.out.println("Apple");
+  }
+   System.out.println("Orange");
+  
+  }
+  
+  
+  public String getAddress(){
+    return address;
+    
+  }
+  
+  public long setPhone(long phoneNumber){
+    this.phoneNumber = phone;
+    return phone;
+  
+  }
+  
+  //public double max(){
+  
+  
+  
+  //}
+  
+  public int smallest(int []x){
+  
+   for (i = 0; i > x.length; i++){ 
+  
+  }
+  
+
+} 
