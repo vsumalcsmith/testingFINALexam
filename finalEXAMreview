@@ -1,3 +1,9 @@
 //Declare one dimensional arrays to store:
 //a. Student's name for a class of 25 srudents
-//b.Student's scres for a class of 25 students
+//b.Student's scores for a class of 25 students
+//c.Student's letter grades for a class of 25 students
+
+//Declare and initialize one dimensional arrays to store:
+//a. the days of the week
+//b. the different letter grades
+//c. the digits 0 - 9 (as numeric values)
