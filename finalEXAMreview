@@ -7,3 +7,52 @@
 //a. the days of the week
 //b. the different letter grades
 //c. the digits 0 - 9 (as numeric values)
+
+
+//decimal to binary
+//binary to decimal
+//hexadecimal to octal
+//types of errors                                                                  (syntax, logic, runtime)
+//programming language levels....                       ( machine lang, assembly lang, high-level lang.... )
+
+import java.util.*;
+import java.util.Scanner;
+
+
+
+public class testInfo{
+
+  private static String name;
+  
+  public static void main(String [] args){
+    readData();
+    displayOutput();
+  
+  }
+  
+  
+  public static void readData(){
+  
+  
+    Scanner input = new Scanner(System.in);
+    
+    
+    System.out.println("What's your name?");
+    name = input.nextLine();
+  
+  }
+  
+  public static void displayOutput(){
+    System.out.printf("\n\t%-20s%-20s", "Name:", name);
+    
+  }
+
+
+//Write a method called swapString that takes a String as parameter. 
+//Swaps the first half of the string with the second half of the 
+//string and returns the new string. 
+
+
+
+
+}
